@@ -1,5 +1,5 @@
 // netlify/functions/subscribe.js
-const { subscribe } = require('substack-subscriber');   // ← from the npm package
+const { subscribe } = require('substack-subscriber'); 
 
 exports.handler = async (event) => {
   if (event.httpMethod !== 'POST') {
@@ -7,7 +7,7 @@ exports.handler = async (event) => {
   }
 
   const { email } = JSON.parse(event.body || '{}');
-  const SUBSTACK_URL = 'https://norngroup.substack.com';   // ← CHANGE THIS
+  const SUBSTACK_URL = 'https://norngroup.substack.com'; 
 
   try {
     const data = await subscribe(email, SUBSTACK_URL);
