@@ -7,7 +7,7 @@ exports.handler = async (event) => {
   }
 
   const { email } = JSON.parse(event.body || '{}');
-  const SUBSTACK_URL = 'https://YOUR-NEWSLETTER.substack.com';   // ← CHANGE THIS
+  const SUBSTACK_URL = 'https://norngroup.substack.com';   // ← CHANGE THIS
 
   try {
     const data = await subscribe(email, SUBSTACK_URL);
