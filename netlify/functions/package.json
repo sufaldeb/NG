@@ -1,0 +1,7 @@
+{
+  "name": "sqsp-substack-fn",
+  "version": "1.0.0",
+  "dependencies": {
+    "substack-subscriber": "^1.0.0"
+  }
+}
