@@ -1,7 +1,6 @@
 {
-  "name": "nornnotes-fns",
+  "name": "sqsp-substack-fn",
   "version": "1.0.0",
-  "type": "commonjs",
   "dependencies": {
     "substack-subscriber": "^1.0.0"
   }
